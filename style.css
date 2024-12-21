@@ -42,8 +42,8 @@ header .logo a {
     font-weight: bold;
 }
 
-header .logo jpg {
-    max-height: 20px; /* 画像の最大高さを調整します */
+header .logo img {
+    max-height: 40px; /* 画像の最大高さを調整します */
     width: auto; /* 高さの変更に応じて幅を自動調整します */
     display: block; /* インライン要素の隙間問題を解消します */
 }
