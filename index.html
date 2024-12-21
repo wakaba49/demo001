@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ゴルフ場ホームページデモ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo"><a href="#">ゴルフ場のロゴ</a></h1>
+            <nav>
+                <ul class="global-nav">
+                    <li><a href="#">トップ</a></li>
+                    <li><a href="#">コース</a></li>
+                    <li><a href="#">レストラン</a></li>
+                    <li><a href="#">ウェディング</a></li>
+                    <li><a href="#">アクセス</a></li>
+                    <li><a href="#">ブログ</a></li>
+                    <li><a href="#">お問い合わせ</a></li>
+                </ul>
+                <button class="menu-btn" aria-label="メニューを開く">
+                     <i class="fa fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+          <div class="sp-menu">
+            <nav>
+                <ul class="sp-global-nav">
+                   <li><a href="#">トップ</a></li>
+                   <li><a href="#">コース</a></li>
+                   <li><a href="#">レストラン</a></li>
+                   <li><a href="#">ウェディング</a></li>
+                   <li><a href="#">アクセス</a></li>
+                   <li><a href="#">ブログ</a></li>
+                   <li><a href="#">お問い合わせ</a></li>
+                 </ul>
+            </nav>
+            <button class="menu-close" aria-label="メニューを閉じる">
+                <i class="fa fa-times"></i>
+             </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-video">
+              <video src="hero-video.mp4" autoplay loop muted></video>
+            </div>
+            <div class="hero-content">
+                <div class="container">
+                    <h2>心揺さぶる、ゴルフ体験を。</h2>
+                    <p>緑豊かな自然と戦略的なコースが、あなたのゴルフをさらに進化させます。</p>
+                    <a href="#" class="button">コース詳細</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="courses">
+            <div class="container">
+                <h2>コース紹介</h2>
+                <div class="course-gallery">
+                    <div class="course-item">
+                      <img src="course1.jpg" alt="コース1">
+                        <h3>コース1</h3>
+                    </div>
+                     <div class="course-item">
+                         <img src="course2.jpg" alt="コース2">
+                        <h3>コース2</h3>
+                    </div>
+                    <div class="course-item">
+                         <img src="course3.jpg" alt="コース3">
+                        <h3>コース3</h3>
+                    </div>
+                    <div class="course-item">
+                         <img src="course4.jpg" alt="コース4">
+                         <h3>コース4</h3>
+                    </div>
+                    <div class="course-item">
+                         <img src="course5.jpg" alt="コース5">
+                         <h3>コース5</h3>
+                    </div>
+                    <div class="course-item">
+                         <img src="course6.jpg" alt="コース6">
+                         <h3>コース6</h3>
+                    </div>
+                </div>
+                <a href="#" class="button">全てのコースを見る</a>
+            </div>
+        </section>
+
+        <section class="restaurant">
+          <div class="container">
+           <h2>レストラン</h2>
+              <div class="restaurant-content">
+                <div class="restaurant-image">
+                  <img src="restaurant.jpg" alt="レストランの画像">
+                </div>
+                  <div class="restaurant-description">
+                    <h3>至福のひととき</h3>
+                    <p>ゴルフの後に、美しい景色と美味しい料理をお楽しみください。地元の食材を活かしたこだわりのメニューをご用意しております。</p>
+                    <a href="#" class="button">詳細はこちら</a>
+                 </div>
+             </div>
+            </div>
+        </section>
+
+         <section class="wedding">
+          <div class="container">
+           <h2>ウェディング</h2>
+            <div class="wedding-content">
+                  <div class="wedding-description">
+                    <h3>特別な一日を、最高のロケーションで</h3>
+                    <p>ゴルフ場を舞台にした、特別なウェディングプランをご提案。自然に囲まれた空間で、忘れられない思い出を。</p>
+                    <a href="#" class="button">詳細はこちら</a>
+                </div>
+                <div class="wedding-image">
+                  <img src="wedding.jpg" alt="ウェディングの画像">
+                </div>
+            </div>
+         </div>
+       </section>
+
+<section class="access">
+    <div class="container">
+        <h2>アクセス</h2>
+        <div class="access-content">
+            <p>所在地: 〒299-3243 千葉県大網白里市大竹２７０−１</p>
+            <p>電話番号: 〇〇-〇〇〇〇-〇〇〇〇</p>
+            <div class="map-container"> <!-- 地図を囲むためのdiv要素を追加 -->
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2977.478388859388!2d140.31116155645918!3d35.529913524558566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sja!2sjp!4v1734793791996!5m2!1sja!2sjp" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+              </div>
+        </div>
+    </div>
+</section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>© 2023 ゴルフ場名. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
