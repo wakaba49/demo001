@@ -43,7 +43,7 @@ header .logo a {
 }
 
 header .logo img {
-    max-height: 10px; /* 必要に応じて調整 */
+    max-height: 5px; /* 必要に応じて調整 */
     width: auto; /* 高さにあわせて自動調整 */
 }
 
